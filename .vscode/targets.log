@@ -1,0 +1,388 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Jul 16 11:39:31 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-3.0.0
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+PROVIDE_FULLSTACK_ACTION = true
+# environment
+LC_CTYPE = UTF-8
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+rvm_path = /Users/vendease/.rvm
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+VSCODE_PID = 75935
+ 
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+rvm_ruby_mode = 
+# environment
+rvm_ruby_make = 
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+rvm_proxy = 
+# environment
+VSCODE_CWD = /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
+# environment
+rvm_pretty_print_flag = 
+# environment
+PATH = /Users/vendease/.rvm/gems/ruby-3.0.0/bin:/Users/vendease/.rvm/gems/ruby-3.0.0@global/bin:/Users/vendease/.rvm/rubies/ruby-3.0.0/bin:/opt/homebrew/opt/node@12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/vendease/.rvm/bin:/Users/vendease/Library/Python/3.8.9/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+GOLANG_EXECUTABLE = go
+# environment
+rvm_niceness = 
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
+# environment
+rvm_only_path_flag = 
+# environment
+LaunchInstanceID = 7B41B791-D106-4607-8245-127F793F7FCC
+# environment
+rvm_gemstone_package_file = 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+rvm_alias_expanded = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+UUID = bf169b39-0550-4799-9279-8d111984c3b1
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YVXAg9q1Hw/Listeners
+# environment
+NODE_OPTIONS = 
+# automatic
+%F = $(notdir $%)
+# environment
+rvm_bin_path = /Users/vendease/.rvm/bin
+# environment
+PWD = /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+GEM_HOME = /Users/vendease/.rvm/gems/ruby-3.0.0
+# environment
+rvm_docs_type = 
+# environment
+rvm_script_name = 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/vendease
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/vendease/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+ 
+LOGNAME = vendease
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+TELEMETRY_ID = 313cb02b-6eed-493c-9dec-c858e7e8891b
+# environment
+ZSH = /Users/vendease/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+rvm_ruby_bits = 
+# environment
+GEM_PATH = /Users/vendease/.rvm/gems/ruby-3.0.0:/Users/vendease/.rvm/gems/ruby-3.0.0@global
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# environment
+rvm_ruby_make_install = 
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+IRBRC = /Users/vendease/.rvm/rubies/ruby-3.0.0/.irbrc
+# environment
+SHLVL = 3
+# environment
+rvm_quiet_flag = 
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = vendease
+# makefile
+.DEFAULT_GOAL := setup
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w3t0p0:A4C911ED-BFC4-4F7E-842D-331447DC09CC
+# environment
+rvm_version = 1.29.12 (latest)
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+UTM_SOURCE = vscode
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/hf/hh3qd2_15p16yj4x93r8cy_h0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/vendease/Library/Application Support/Code/1.69.0-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# environment
+NVM_DIR = /Users/vendease/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.27049320.27049326.CA841D53-8FCD-4334-BC04-49EAB04E1FDB
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w3t0p0:A4C911ED-BFC4-4F7E-842D-331447DC09CC
+# environment
+rvm_sdk = 
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 7;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+rvm_silent_flag = 
+# environment
+rvm_gemstone_url = 
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+rvm_bin_flag = 
+# environment
+SECURITYSESSIONID = 186a5
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /Users/vendease
+# default
+SUFFIXES := 
+# environment
+rvm_ruby_file = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+rvm_use_flag = 
+# environment
+rvm_hook = 
+# environment
+MY_RUBY_HOME = /Users/vendease/.rvm/rubies/ruby-3.0.0
+# environment
+rvm_nightly_flag = 
+# variable set hash-table stats:
+# Load=122/1024=12%, Rehash=0, Collisions=11/148=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 26024361): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+setup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 9):
+	# Create python virtualenv & source it
+	# source ~/.devops/bin/activate
+	python3 -m venv ~/.devops
+	
+
+all: install lint test
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-11 12:54:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203,W1202 app.py
+	
+
+install:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := install
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 14):
+	# This should be run from inside a virtualenv
+	pip install --upgrade pip &&\
+	pip install -r requirements.txt
+	
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Jul 16 11:39:31 2022
+
+ 
