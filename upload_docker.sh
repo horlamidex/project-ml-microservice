@@ -10,6 +10,8 @@ dockerpath="horllymobile/ml-project"
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker tag ml-project $dockerpath
+docker login --username horllymobile
 
 # Step 3:
 # Push image to a docker repository

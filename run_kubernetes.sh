@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=horllymobile/ml-project
+dockerpath="horllymobile/ml-project"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run ml-project --image=$dockerpath --generator=run-pod/v1
+kubectl run ml-project --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
