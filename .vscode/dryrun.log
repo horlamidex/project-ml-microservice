@@ -1,7 +1,7 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes'
+make: Entering directory '/home/horlly/Desktop/Workspace/project-ml-microservice'
 # Create python virtualenv & source it
 # source ~/.devops/bin/activate
 python3 -m venv ~/.devops
-make: Leaving directory `/Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes'
+make: Leaving directory '/home/horlly/Desktop/Workspace/project-ml-microservice'
  

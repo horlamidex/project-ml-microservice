@@ -1,265 +1,208 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
-# This program built for i386-apple-darwin11.3.0
- 
-
-# Make data base, printed on Sat Jul 16 11:39:31 2022
+# Make data base, printed on Sun Jul 17 16:01:00 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
 # environment
-RUBY_VERSION = ruby-3.0.0
-# automatic
-?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-PROVIDE_FULLSTACK_ACTION = true
-# environment
-LC_CTYPE = UTF-8
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-rvm_path = /Users/vendease/.rvm
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile
-CURDIR := /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
-# makefile
-SHELL = /bin/sh
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
-# environment
-_ = /usr/bin/make
-# environment
-VSCODE_PID = 75935
- 
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# environment
-rvm_ruby_mode = 
-# environment
-rvm_ruby_make = 
-# environment
-__CFBundleIdentifier = com.microsoft.VSCode
-# environment
-INFOPATH = /opt/homebrew/share/info:
-# environment
-rvm_proxy = 
-# environment
-VSCODE_CWD = /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
-# environment
-rvm_pretty_print_flag = 
-# environment
-PATH = /Users/vendease/.rvm/gems/ruby-3.0.0/bin:/Users/vendease/.rvm/gems/ruby-3.0.0@global/bin:/Users/vendease/.rvm/rubies/ruby-3.0.0/bin:/opt/homebrew/opt/node@12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/vendease/.rvm/bin:/Users/vendease/Library/Python/3.8.9/bin
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-GOLANG_EXECUTABLE = go
-# environment
-rvm_niceness = 
-# environment
-THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
-# environment
-rvm_only_path_flag = 
-# environment
-LaunchInstanceID = 7B41B791-D106-4607-8245-127F793F7FCC
-# environment
-rvm_gemstone_package_file = 
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-rvm_alias_expanded = 
-# default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
-# environment
-UUID = bf169b39-0550-4799-9279-8d111984c3b1
-# environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YVXAg9q1Hw/Listeners
-# environment
-NODE_OPTIONS = 
-# automatic
-%F = $(notdir $%)
-# environment
-rvm_bin_path = /Users/vendease/.rvm/bin
-# environment
-PWD = /Users/vendease/Desktop/Workspace/Cloud Devops/DevOps_Microservices/project-ml-microservice-kubernetes
-# environment
-HOMEBREW_CELLAR = /opt/homebrew/Cellar
-# environment
-GEM_HOME = /Users/vendease/.rvm/gems/ruby-3.0.0
-# environment
-rvm_docs_type = 
-# environment
-rvm_script_name = 
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-MANPATH = /opt/homebrew/share/man::
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /Users/vendease
-# default
-MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
-# environment
-VSCODE_CLI = 1
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/vendease/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
-# environment
- 
-LOGNAME = vendease
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-NVM_CD_FLAGS = -q
-# environment
-TELEMETRY_ID = 313cb02b-6eed-493c-9dec-c858e7e8891b
-# environment
-ZSH = /Users/vendease/.oh-my-zsh
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-rvm_ruby_bits = 
-# environment
-GEM_PATH = /Users/vendease/.rvm/gems/ruby-3.0.0:/Users/vendease/.rvm/gems/ruby-3.0.0@global
-# environment
-XPC_FLAGS = 0x0
-# environment
-COLORTERM = truecolor
-# environment
-rvm_ruby_make_install = 
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-LC_TERMINAL = iTerm2
-# environment
-IRBRC = /Users/vendease/.rvm/rubies/ruby-3.0.0/.irbrc
-# environment
-SHLVL = 3
-# environment
-rvm_quiet_flag = 
-# default
-MAKE_VERSION := 3.81
-# environment
-USER = vendease
-# makefile
-.DEFAULT_GOAL := setup
-# default
-MAKECMDGOALS := all
-# environment
-TERM_SESSION_ID = w3t0p0:A4C911ED-BFC4-4F7E-842D-331447DC09CC
-# environment
-rvm_version = 1.29.12 (latest)
-# environment
-LESS = -R
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
-# environment
-UTM_SOURCE = vscode
-# environment
-TERM_PROGRAM = iTerm.app
-# default
-.VARIABLES := 
-# environment
-TMPDIR = /var/folders/hf/hh3qd2_15p16yj4x93r8cy_h0000gn/T/
-# automatic
-*F = $(notdir $*)
-# environment
-VSCODE_IPC_HOOK = /Users/vendease/Library/Application Support/Code/1.69.0-main.sock
-# environment
-MallocNanoZone = 0
-# makefile
-MAKEFLAGS = Rrqp
-# environment
-MFLAGS = -Rrqp
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-TERM_PROGRAM_VERSION = 3.4.16
-# environment
-NVM_DIR = /Users/vendease/.nvm
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.27049320.27049326.CA841D53-8FCD-4334-BC04-49EAB04E1FDB
-# environment
-LC_TERMINAL_VERSION = 3.4.16
-# environment
-HOMEBREW_PREFIX = /opt/homebrew
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
-# automatic
-+F = $(notdir $+)
-# environment
-ITERM_SESSION_ID = w3t0p0:A4C911ED-BFC4-4F7E-842D-331447DC09CC
-# environment
-rvm_sdk = 
-# environment
-HOMEBREW_REPOSITORY = /opt/homebrew
-# environment
-COLORFGBG = 7;0
-# environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
-# environment
-COMMAND_MODE = unix2003
-# default
-MAKEFILES := 
-# automatic
-<F = $(notdir $<)
-# environment
-ITERM_PROFILE = Default
-# environment
-rvm_silent_flag = 
-# environment
-rvm_gemstone_url = 
-# environment
-PAGER = less
+GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-rvm_bin_flag = 
+GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-SECURITYSESSIONID = 186a5
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_CWD = /home/horlly
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
 # automatic
-^F = $(notdir $^)
+@D = $(patsubst %/,%,$(dir $@))
 # environment
-rvm_prefix = /Users/vendease
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
-SUFFIXES := 
+.VARIABLES := 
 # environment
-rvm_ruby_file = 
-# default
-.INCLUDE_DIRS = /usr/local/include
+PWD = /home/horlly/Desktop/Workspace/project-ml-microservice
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-MAKELEVEL := 0
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/horlly/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.2NLKP1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/horlly/Desktop/Workspace/project-ml-microservice
 # environment
-rvm_use_flag = 
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
-rvm_hook = 
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
 # environment
-MY_RUBY_HOME = /Users/vendease/.rvm/rubies/ruby-3.0.0
+MFLAGS = -pqrR
 # environment
-rvm_nightly_flag = 
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+ 
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 16374
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/horlly:@/tmp/.ICE-unix/15065,unix/horlly:/tmp/.ICE-unix/15065
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_NG:en
+# automatic
+^F = $(notdir $^)
+# environment
+INVOCATION_ID = eb28bf09bee1413c8e4526abded9117f
+# environment
+USERNAME = horlly
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = horlly
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := setup
+# environment
+SYSTEMD_EXEC_PID = 15099
+# environment
+DISPLAY = :0
+# environment
+USER = horlly
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 14927
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 16374
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+JOURNAL_STREAM = 8:103768
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/horlly
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e3f9dc77-1.69.1-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
 # variable set hash-table stats:
-# Load=122/1024=12%, Rehash=0, Collisions=11/148=7%
+# Load=95/1024=9%, Rehash=0, Collisions=2/128=2%
 
 # Pattern-specific Variable Values
 
@@ -267,9 +210,9 @@ rvm_nightly_flag =
 
 # Directories
 
-# . (device 16777231, inode 26024361): 15 files, no impossibilities.
+# . (device 2051, inode 14811587): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,45 +224,29 @@ setup:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 9):
+#  recipe to execute (from 'Makefile', line 9):
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
 	python3 -m venv ~/.devops
-	
 
-all: install lint test
-#  Command-line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
-
-# Not a target:
-.SUFFIXES:
+lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203,W1202 app.py
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-11 12:54:14
+#  Last modified 2022-07-17 11:53:16.149235649
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-test:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 19):
-	# Additional, optional, tests could go here
-	#python -m pytest -vv --cov=myrepolib tests/*.py
-	#python -m pytest --nbval notebook.ipynb
-	
 
 # Not a target:
 .DEFAULT:
@@ -327,62 +254,73 @@ test:
 #  Modification time never checked.
 #  File has not been updated.
 
-lint:
+all: install lint test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 24):
-	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
-	# This is linter for Dockerfiles
-	hadolint Dockerfile
-	# This is a linter for Python source code linter: https://www.pylint.org/
-	# This should be run from inside a virtualenv
-	pylint --disable=R,C,W1203,W1202 app.py
-	
+#  recipe to execute (from 'Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
 
 install:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
 # @ := install
 # automatic
-# % := 
-# automatic
 # * := 
+# automatic
+# < := 
 # automatic
 # + := 
 # automatic
-# | := 
-# automatic
-# < := 
+# % := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
+# automatic
+# | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
-#  commands to execute (from `Makefile', line 14):
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 14):
 	# This should be run from inside a virtualenv
-	pip install --upgrade pip &&\
-	pip install -r requirements.txt
-	
+	python3 -m pip install --upgrade pip &&\
+		python3 -m pip install -r requirements.txt
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 25 / storage = 257 B / avg = 10 B
+# current buf: size = 8162 B / used = 257 B / count = 25 / avg = 10 B
 
-# Finished Make data base on Sat Jul 16 11:39:31 2022
+# strcache performance: lookups = 39 / hit rate = 35%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Sun Jul 17 16:01:00 2022
 
  

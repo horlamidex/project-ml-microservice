@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="horllymobile/horlamidex_ml_project"
+dockerpath="horllymobile/ml-project"
 
 # Step 2:  
 # Authenticate & tag
